@@ -1,0 +1,12 @@
+# Docker Compose file to build Flask and Nginx CONTAINERS
+services:
+  web:
+    build: .
+    ports:
+      - "8000:8000"
+  nginx:
+    image: nginx:latest
+    ports:
+      - "80:80"
+    depends_on:
+      - web
