@@ -70,7 +70,8 @@ The deployment details are as follows:
     - ![alt text](<images/Flask Web App.png>)
 6. Please see below for Kubernetes Architectural Diagram:
     - ![alt text](<images/Kubernetes Diagram.png>)
-
+    - More information found at https://stackoverflow.com/questions/76080757/why-does-a-nodeport-need-a-port-in-kubernetes#:~:text=The%20nodePort%20is%20used%20to,accessed%20from%20outside%20the%20cluster.&text=TargetPort%20is%20the%20actual%20port,Service%20should%20forward%20traffic%20to.
+    
 
 ## Important notes
 1. templates folder
