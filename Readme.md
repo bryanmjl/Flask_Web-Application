@@ -68,6 +68,8 @@ The deployment details are as follows:
 5. Port forward to the service by running ```kubectl port-forward service/python-web-svc 8080:80``` which forwards port 8080 to 80. Open up ```http://localhost:8080``` next and you'll see the following:
     - ![alt text](<images/Kubernetes Port Forward.png>)
     - ![alt text](<images/Flask Web App.png>)
+6. Please see below for Kubernetes Architectural Diagram:
+    - ![alt text](<images/Kubernetes Diagram.png>)
 
 
 ## Important notes
